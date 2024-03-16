@@ -16,9 +16,9 @@ Note : No copying (even partial) of this code within the scope of the INFO8006 c
 
 ## Summary
 0. [Installation](#installation)
-1. [Project 1 - A*](#projet-1)
-2. [Project 2 - Minimax](#projet-2)
-3. [Project 3 - Bayes filter](#projet-3)
+1. [Project 1 - A*](#project-1)
+2. [Project 2 - Minimax](#project-2)
+3. [Project 3 - Bayes filter](#project-3)
 4. [Credits](#credits)
 
 ## Installation
@@ -44,7 +44,7 @@ The first project involves developing a pathfinding algorithm to eat all the dot
 ### BFS solution
 This solution make use of [Breadth-First search](https://en.wikipedia.org/wiki/Breadth-first_search) to find the direction to the nearest dot.
 
-Run it (from the projet-1 folder)
+**Run it (from the projet-1 folder) :**
 ```console
 python run.py --agent bfs --layout medium
 ```
@@ -54,7 +54,7 @@ Multiple layout are available : small, medium, large
 This solution make use of [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the direction to the nearest dot which minimizes our heuristic.<br>
 In our solution the heuristic to compute the forward cost is the Manhattan distance between the position and the farthest food point from this position.
 
-Run it (from the projet-1 folder)
+**Run it (from the projet-1 folder) :**
 ```console
 python run.py --agent astar --layout medium
 ```
@@ -70,7 +70,7 @@ Eating the food, eating a ghost and winning the map give points (+10, +5, +500) 
 ### Minimax
 This solution is a direct implementation of [minimax](https://en.wikipedia.org/wiki/Minimax).
 
-Run it (from the projet-2 folder)
+**Run it (from the projet-2 folder) :**
 ```console
 python run.py --agent minimax --ghost dumby --layout small_adv
 ```
@@ -83,7 +83,7 @@ H-minimax reduces the required computation to find a solution by adding a maximu
 When the maximum recursion is reached, the score given to the action =<br>
 score at recursion state reached - shotest path to all remaining foods at recursion state reached - exp(number of previous walkthrough at the position in the recursion state)
 
-Run it (from the projet-2 folder)
+**Run it (from the projet-2 folder) :**
 ```console
 python run.py --agent minimax --ghost dumby --layout small_adv
 ```
@@ -96,7 +96,7 @@ Multiple ghost behaviors are available : small_adv, medium_adv, large_adv
 The third project involves implementing a [Bayes filter](https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation) over noisy reading of the ghost positions.<br>
 Here the goal of pacman is to eat all the ghosts in a minimum number steps while having only access to a noisy manhattan distance to each remaining ghost.
 
-Run it (from the projet-3 folder)
+**Run it (from the projet-3 folder) :**
 ```console
 python run.py --ghost afraid --nghosts 1 --layout large_filter --seed 19
 ```
