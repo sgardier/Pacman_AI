@@ -93,6 +93,7 @@ Multiple ghost behaviors are available : small_adv, medium_adv, large_adv
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="ressources/bayes_preview.png" alt="Bayes filter" style="width: 60%;"/>
 </div>
+
 The third project involves implementing a [Bayes filter](https://en.wikipedia.org/wiki/Recursive_Bayesian_estimation) over noisy reading of the ghost positions.<br>
 Here the goal of pacman is to eat all the ghosts in a minimum number steps while having only access to a noisy manhattan distance to each remaining ghost.
 
