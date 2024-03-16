@@ -1,4 +1,4 @@
-# 🕹️ Basic AI algorithm in Python for Pacgman game
+# 🕹️ Basic AI algorithms in Python for Pacman game
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet?style=for-the-badge)
 ![Language](https://img.shields.io/badge/python-3670A0?style=for-the-badge)
 
@@ -6,8 +6,8 @@
   <img src="ressources/bayes_preview.png" alt="bayes filter" style="width: 90%;"/>
 </div>
 
-Project undertaken as part of the INFO8006 course instructed by Professor Louppe.<br>
-Marks :
+Project undertaken as part of the INFO8006 course given by Pr. Louppe.<br>
+Grades :
 - Project 1 - A* : 16/20
 - Project 2 - Minimax and h-minimax : 19/20
 - Project 3 - Bayes filter : 20/20
@@ -24,7 +24,7 @@ Note : No copying (even partial) of this code within the scope of the INFO8006 c
 ## Installation
 This section is taken from the [project page](https://github.com/glouppe/info8006-introduction-to-ai/tree/master/projects#readme) of the INFO8006 course.<br>
 - Install [conda](https://docs.anaconda.com/free/miniconda/)
-- Create a conda environment to run the programs, activate it and install numpy
+- Create a conda environment to run the programs, activate it and install NumPy
 ```console
 conda create --name pacman python=3.8
 conda activate pacman
@@ -42,7 +42,7 @@ git clone git@github.com:sgardier/Pacman_IA.git
 The first project involves developing a pathfinding algorithm to eat all the dots while minimizing the total distance traveled.
 
 ### BFS solution
-This solution make use of [Breadth-First search](https://en.wikipedia.org/wiki/Breadth-first_search) to find the direction to the nearest dot.
+This solution makes use of [Breadth-First search](https://en.wikipedia.org/wiki/Breadth-first_search) to find the direction to the nearest dot.
 
 **Run it (from the projet-1 folder) :**
 ```console
@@ -51,7 +51,7 @@ python run.py --agent bfs --layout medium
 Multiple layout are available : small, medium, large
 
 ### A* solution
-This solution make use of [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the direction to the nearest dot which minimizes our heuristic.<br>
+This solution make use of [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the direction to the nearest dot which minimizes the heuristic.<br>
 In our solution the heuristic to compute the forward cost is the Manhattan distance between the position and the farthest food point from this position.
 
 **Run it (from the projet-1 folder) :**
@@ -64,7 +64,7 @@ Multiple layout are available : small, medium, large
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="ressources/minimax_preview.png" alt="Minimax" style="width: 60%;"/>
 </div>
-The second project involves developing a algorithm which which maximizes the score value.<br>
+The second project involves developing a algorithm which maximizes the score value.<br>
 Eating the food, eating a ghost and winning the map give points (+10, +5, +500) while walking, eating the capsules and losing the game takes away points (-1, -5, -500).
 
 ### Minimax
@@ -74,7 +74,7 @@ This solution is a direct implementation of [minimax](https://en.wikipedia.org/w
 ```console
 python run.py --agent minimax --ghost dumby --layout small_adv
 ```
-Since Minimax is a computation intensive algorithm we recommend to try only the small layout<br>
+"Since Minimax is a computationally intensive algorithm, we recommend trying only the small layout.<br>
 Multiple ghost behaviors are available : dumby, greedy, smarty
 
 ### H-Minimax
