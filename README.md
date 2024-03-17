@@ -1,4 +1,4 @@
-# 🕹️ Basic AI algorithms in Python for Pacman game
+# 🕹️ Basic AI algorithms for Pacman game
 ![Release](https://img.shields.io/badge/Release-v1.0-blueviolet?style=for-the-badge)
 ![Language](https://img.shields.io/badge/python-3670A0?style=for-the-badge)
 
