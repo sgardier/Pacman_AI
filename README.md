@@ -103,6 +103,6 @@ python run.py --ghost afraid --nghosts 1 --layout large_filter --seed 19
 ```
 
 ## Credits
-- [Simon Gardier](https://github.com/sgardier) (Co-author)
+- [Simon Gardier](https://github.com/simon-gardier) (Co-author)
 - Jamama Jair (Co-author)
 - Dario Rinallo (Co-author)
