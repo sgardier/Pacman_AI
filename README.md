@@ -74,7 +74,7 @@ This solution is a direct implementation of [minimax](https://en.wikipedia.org/w
 ```console
 python run.py --agent minimax --ghost dumby --layout small_adv
 ```
-"Since Minimax is a computationally intensive algorithm, we recommend trying only the small layout.<br>
+Since Minimax is a computationally intensive algorithm, we recommend trying only the small layout.<br>
 Multiple ghost behaviors are available : dumby, greedy, smarty
 
 ### H-Minimax
