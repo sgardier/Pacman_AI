@@ -52,7 +52,7 @@ Multiple layout are available : small, medium, large
 
 ### A* solution
 This solution make use of [A*](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the direction to the nearest dot which minimizes the heuristic.<br>
-In our solution the heuristic to compute the forward cost is the Manhattan distance between the position and the farthest food point from this position.
+In our solution the heuristic to compute the forward cost is the Manhattan distance between the position of Pacman in the state and the farthest food dot from this position.
 
 **Run it (from the projet-1 folder) :**
 ```console
