@@ -65,7 +65,7 @@ Multiple layout are available : small, medium, large
   <img src="ressources/minimax_preview.png" alt="Minimax" style="width: 60%;"/>
 </div>
 The second project involves developing a algorithm which maximizes the score value.<br>
-Eating the food, eating a ghost and winning the map give points (+10, +5, +500) while walking, eating the capsules and losing the game takes away points (-1, -5, -500).
+Eating the food, eating a ghost and winning the map give points (+10, +5, +500) while walking, eating the capsules and losing the game take away points (-1, -5, -500).
 
 ### Minimax
 This solution is a direct implementation of [minimax](https://en.wikipedia.org/wiki/Minimax).
