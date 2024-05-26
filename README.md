@@ -32,7 +32,7 @@ conda install numpy
 ```
 - Clone the repository
 ```console
-git clone git@github.com:sgardier/Pacman_IA.git
+git clone git@github.com:sgardier/pacman-ai-from-scratch.git
 ```
 
 ## Project 1
