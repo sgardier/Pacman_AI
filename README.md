@@ -15,11 +15,11 @@ Grades :
 Note : No copying (even partial) of this code within the scope of the INFO8006 course will be tolerated.
 
 ## Summary
-0. [Installation](#installation)
-1. [Project 1 - A*](#project-1)
-2. [Project 2 - Minimax](#project-2)
-3. [Project 3 - Bayes filter](#project-3)
-4. [Credits](#credits)
+1. [Installation](#installation)
+2. [Project 1 - A*](#project-1)
+3. [Project 2 - Minimax](#project-2)
+4. [Project 3 - Bayes filter](#project-3)
+5. [Credits](#credits)
 
 ## Installation
 This section is taken from the [project page](https://github.com/glouppe/info8006-introduction-to-ai/tree/master/projects#readme) of the INFO8006 course.<br>
